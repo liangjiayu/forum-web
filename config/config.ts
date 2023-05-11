@@ -1,6 +1,5 @@
 // https://umijs.org/config/
 import { defineConfig } from '@umijs/max';
-import defaultSettings from './defaultSettings';
 import proxy from './proxy';
 import routes from './routes';
 
@@ -76,19 +75,6 @@ export default defineConfig({
    * @doc https://umijs.org/docs/max/layout-menu
    */
   title: 'Ant Design Pro',
-  layout: {
-    locale: true,
-    ...defaultSettings,
-  },
-  /**
-   * @name moment2dayjs 插件
-   * @description 将项目中的 moment 替换为 dayjs
-   * @doc https://umijs.org/docs/max/moment2dayjs
-   */
-  moment2dayjs: {
-    preset: 'antd',
-    plugins: ['duration'],
-  },
   /**
    * @name antd 插件
    * @description 内置了 babel import 插件

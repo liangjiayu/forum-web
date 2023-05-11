@@ -12,7 +12,7 @@
  */
 export default [
   {
-    path: '/home',
+    path: '/',
     name: 'home',
     icon: 'smile',
     component: './Home',
