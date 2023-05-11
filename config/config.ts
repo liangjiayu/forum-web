@@ -70,10 +70,6 @@ export default defineConfig({
    * @doc https://umijs.org/docs/max/data-flow#%E5%85%A8%E5%B1%80%E5%88%9D%E5%A7%8B%E7%8A%B6%E6%80%81
    */
   initialState: {},
-  /**
-   * @name layout 插件
-   * @doc https://umijs.org/docs/max/layout-menu
-   */
   title: 'Ant Design Pro',
   /**
    * @name antd 插件
