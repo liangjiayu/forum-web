@@ -17,4 +17,8 @@ export default [
     icon: 'smile',
     component: './Home',
   },
+  {
+    path: '/login',
+    component: './Login',
+  },
 ];
