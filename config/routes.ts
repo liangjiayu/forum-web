@@ -16,7 +16,8 @@ export default [
     component: '@/layouts/BasicLayout',
     routes: [
       { path: '', component: '@/pages/Home' },
-      { path: 'topic', component: '@/pages/Topic' },
+      { path: '/topic', component: '@/pages/Topic' },
+      { path: '/topic/:id', component: '@/pages/TopicItem' },
     ],
   },
   {
