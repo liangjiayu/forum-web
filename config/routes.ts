@@ -17,7 +17,9 @@ export default [
     routes: [
       { path: '', component: '@/pages/Home' },
       { path: '/topic', component: '@/pages/Topic' },
-      { path: '/topic/:id', component: '@/pages/TopicItem' },
+      { path: '/topic/:topicId', component: '@/pages/TopicItem' },
+      { path: '/topic/:id/post/edit', component: '@/pages/PostEdit' },
+      { path: '/topic/:topicId/post/:postId', component: '@/pages/Post' },
     ],
   },
   {
