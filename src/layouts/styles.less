@@ -58,6 +58,27 @@
 
 .layout-main-container {
   max-width: 1240px;
+  min-height: calc(100vh - 170px);
   margin: 24px auto;
   padding: 0 20px;
+}
+
+.layout-footer-wrap {
+  background-color: #fff;
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+    img {
+      width: 60px;
+      height: 60px;
+    }
+    span {
+      margin-left: 8px;
+      font-size: 14px;
+    }
+  }
 }

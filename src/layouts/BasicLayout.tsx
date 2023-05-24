@@ -22,7 +22,12 @@ export default function Layout() {
       <main className="layout-main-container">
         <Outlet />
       </main>
-      <footer>footer</footer>
+      <footer className="layout-footer-wrap">
+        <div className="footer-container">
+          <img src="/logo.png" alt="" />
+          <span>❤️ 记录生活</span>
+        </div>
+      </footer>
     </div>
   );
 }
