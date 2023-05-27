@@ -1,13 +1,14 @@
 import { CommentOutlined, LikeOutlined } from '@ant-design/icons';
 import { useParams } from '@umijs/max';
 import { Button, Form, Input, Pagination, Select } from 'antd';
+import CategoryBox from './components/CategoryBox';
 import './styles.less';
 
 const TopicItem = () => {
   const params = useParams();
 
   return (
-    <div>
+    <div className="topic-item-root">
       <div className="header-wrap">
         <Form layout="inline">
           <Form.Item style={{ flex: 1 }}>
@@ -54,23 +55,7 @@ const TopicItem = () => {
       </div>
       <div className="main-wrap">
         <div className="main-left">
-          <div className="category-container">
-            <div className="category-name">分类</div>
-            <div className="category-list">
-              <div className="item active">
-                <div className="item-icon">🤔</div>
-                <div className="item-name">name</div>
-              </div>
-              <div className="item">
-                <div className="item-icon">💻</div>
-                <div className="item-name">name</div>
-              </div>
-              <div className="item">
-                <div className="item-icon">🔥</div>
-                <div className="item-name">name</div>
-              </div>
-            </div>
-          </div>
+          <CategoryBox />
         </div>
         <div className="main-right">
           <div className="post-title">热门帖子</div>

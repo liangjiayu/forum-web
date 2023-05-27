@@ -20,6 +20,7 @@ export default [
       { path: '/topic/:topicId', component: '@/pages/TopicItem' },
       { path: '/topic/:id/post/edit', component: '@/pages/PostEdit' },
       { path: '/topic/:topicId/post/:postId', component: '@/pages/Post' },
+      { path: '/topic/:topicId/categoryManage', component: '@/pages/CategoryManage' },
     ],
   },
   {
